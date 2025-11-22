@@ -723,22 +723,17 @@ with tab3:
 with tab4:
     st.header(" Usage Guide")
     
+   
     st.markdown("""
-    ### 🎥 Video Tutorial
-    
-    Watch this quick tutorial to learn how to use CardioCare AI:
-    """)
-    
-    # Video placeholder
-    st.markdown("""
-    <div style="background-color: #f0f2f6; border: 2px dashed #888; border-radius: 10px; padding: 100px 20px; text-align: center; margin: 20px 0;">
-        <h3 style="color: #666;">🎬 Video Tutorial Coming Soon</h3>
-        <p style="color: #888;">A comprehensive walkthrough video will be available here</p>
-        <p style="color: #aaa; font-size: 14px;">Duration: ~5 minutes</p>
-    </div>
+        <div class="feature-card">
+            <h3>🎥 Video Tutorial</h3>
+            <p>Watch this short video to understand the complete workflow:</p>
+        </div>
     """, unsafe_allow_html=True)
     
-    st.markdown("---")
+    # Placeholder for video
+    st.video("https://youtu.be/13eq--U-TBA")  # Replace with actual video URL
+    
     
     st.markdown("""
     ###  Step-by-Step Guide
